@@ -22,7 +22,6 @@
 
 			$firstname = test($_POST['fname']);
 			$lastname = test($_POST['lname']);
-			$gender= test($_POST['gender']);
 			$religion= test($_POST['Religion']);
 			$birthday= test($_POST['birthday']);
 			$email= test($_POST['email']);
@@ -31,7 +30,7 @@
 
 
 			if (empty($firstname) or empty($lastname)
-				or empty($gender) or empty($religion) or empty($birthday) or empty($email) or empty($phone))  {
+				or empty($religion) or empty($birthday) or empty($email) or empty($phone))  {
 				echo "Please fill up the form properly";
 			}
 			else {
